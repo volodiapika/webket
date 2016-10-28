@@ -1,0 +1,73 @@
+.message-bubble 
+{
+    padding: 10px 0px 10px 0px;
+}
+
+.message-bubble:nth-child(even) { background-color: #F5F5F5; }
+
+.message-bubble > *
+{
+    padding-left: 10px;    
+}
+
+.panel-body { padding: 0px; }
+
+.panel-heading { background-color: #3d6da7 !important; color: white !important; }
+
+.row-send {
+	border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.main-body {
+    height: 300px; 
+    overflow-y: auto;
+    width: 100%;
+    float: left;
+    position: relative;
+    margin-left: -5px;
+}
+
+.main-body-footer {
+    width: 100%;
+    float: left;
+    position: relative;
+    margin-left: -5px;
+}
+.info, .success, .warning, .error, .validation {
+    border: 1px solid;
+    margin: 10px 0px;
+    padding: 15px 10px 15px 50px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    display: none;
+}
+
+.info {
+    color: #00529B;
+    background-color: #BDE5F8;
+}
+
+.success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+}
+
+.warning {
+    color: #9F6000;
+    background-color: #FEEFB3;
+}
+
+.error{
+    color: #D8000C;
+    background-color: #FFBABA;
+}
+
+.validation{
+    color: #D63301;
+    background-color: #FFCCBA;
+}
